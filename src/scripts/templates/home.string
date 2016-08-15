@@ -1,0 +1,80 @@
+<div class="m-home">
+	<header>
+		<ul>
+			<li class="yo-ico">&#xe605;</li>
+			<li>
+				<ul id="title">
+					<li class="active" action-type="ul.title">热点</li>
+					<li action-type="ul.title">关注</li>
+				</ul>
+			</li>
+			<li class="yo-ico">&#xe609;</li>
+		</ul>
+	</header>
+
+	<div class="swiper-container swiper-index" id="swiper-home">
+	  <div class="swiper-wrapper">
+	    <div class="swiper-slide" id="hot-slide">
+	        <nav>
+				<ul>
+					<li action-type="tap.slide" class="active">足球现场</li>
+					<li action-type="tap.slide">足球生活</li>
+					<li action-type="tap.slide">足球美女</li>
+				</ul>
+			</nav>
+			<div class="hh">
+				<div class="swiper-container" id="swiper-container">
+					<div class="swiper-wrapper">
+					    <div class="swiper-slide">
+					        <section spa-widget="scroll" class="shome" data-scroll-id="homeList">
+								<div>
+									<div class="head">
+			                            <img src="/footballApp/images/img/arrow.png"/>
+			                            <span>下拉刷新...</span>
+			                        </div>
+									<ul>
+										<li ms-repeat-value="livedata" action-type="goto.detail" ms-attr-data-id="value.id"><img ms-src="value.img"><span ms-text="value.title"></span></li>
+										
+									</ul>
+									<div class="foot">
+			                            <img src="/footballApp/images/img/arrow.png"/>
+			                            <span>上拉加载更多...</span>
+			                        </div>
+								</div>
+							</section>
+					    </div>
+					    <div class="swiper-slide">
+					       <section spa-widget="scroll" class="shome">
+								<div>
+									<ul>
+										<li ms-repeat-value="livedata"><img ms-src="value.img"><span ms-text="value.title"></span></li>
+									</ul>
+								</div>
+							</section>
+					    </div>
+					    <div class="swiper-slide">
+					        <section spa-widget="scroll" class="shome">
+								<div>
+									<ul>
+										<li><img src="images/img/img1.jpg"><span>该好好的是多少</span></li>
+										<li><img src="images/img/img1.jpg"><span>该好好的是多少</span></li>
+										<li><img src="images/img/img1.jpg"><span>该好好的是多少</span></li>
+										<li><img src="images/img/img1.jpg"><span>该好好的是多少</span></li>
+										<li><img src="images/img/img1.jpg"><span>该好好的是多少</span></li>
+									</ul>
+								</div>
+							</section>
+					    </div> 
+					 </div>
+				</div>
+			</div>
+			
+	    </div>
+	    <div class="swiper-slide" id="focus-load">
+	        
+	        <mark><p></p>加载中....</mark>
+	    </div>
+	  </div>
+	</div>
+	
+</div>
