@@ -1,0 +1,26 @@
+.m-exit{
+	width:100%;
+	height:100%;
+	
+	.exit-img{
+		width:100%;
+		height:2rem;
+		background:#f00;
+	}
+	.exit-content{
+		@include flex(1);
+		width:100%;
+		height:19rem;
+		background:yellow;
+	}
+}
+.exit-menu{
+	width:100%;
+	height:.44rem;
+	background:green;
+}
+.fexedSccroll{
+	position:fixed;
+	top:0;
+	left:0;
+}
