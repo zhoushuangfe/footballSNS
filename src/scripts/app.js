@@ -23,13 +23,9 @@ require("./views/exit");
 SPA.config({
 	indexView:"index"
 })
-<<<<<<< HEAD
+
 console.log("ok")
 console.log("new")
-=======
-console.log("hhjjjj");
-console.log("hello");
 
->>>>>>> 20160815-football
 
 
