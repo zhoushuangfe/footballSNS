@@ -24,6 +24,7 @@ SPA.config({
 	indexView:"my"
 })
 console.log("hhjjjj");
-console.log("hello")
+console.log("hello");
+console.log("ok")
 
 
