@@ -23,8 +23,6 @@ require("./views/exit");
 SPA.config({
 	indexView:"index"
 })
-console.log("hhjjjj");
-console.log("hello");
 console.log("ok")
 console.log("new")
 
