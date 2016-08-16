@@ -22,9 +22,13 @@ require("./views/exit");
 //默认的首屏view
 SPA.config({
 <<<<<<< HEAD
+<<<<<<< HEAD
 	indexView:"index"
 =======
 	indexView:"guide1111111111"
+>>>>>>> 20160815-football
+=======
+	indexView:"guide222222222222222"
 >>>>>>> 20160815-football
 })
 
