@@ -26,6 +26,6 @@ SPA.config({
 console.log("hhjjjj");
 console.log("hello");
 console.log("ok")
-
+console.log("new")
 
 
