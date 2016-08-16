@@ -21,13 +21,9 @@ require("./views/exit");
 
 //默认的首屏view
 SPA.config({
-<<<<<<< HEAD
 	indexView:"index"
-=======
-	indexView:"my"
->>>>>>> 20160815-football
 })
-console.log("hhjjjj")
+
 
 
 
