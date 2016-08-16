@@ -21,7 +21,7 @@ require("./views/exit");
 
 //默认的首屏view
 SPA.config({
-	indexView:"guide222222222222222"
+	indexView:"guide333333333"
 })
 
 
