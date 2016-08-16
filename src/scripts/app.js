@@ -27,3 +27,8 @@ SPA.config({
 
 
 
+console.log("hhjjjj");
+console.log("hello")
+
+
+
