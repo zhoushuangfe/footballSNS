@@ -21,18 +21,7 @@ require("./views/exit");
 
 //默认的首屏view
 SPA.config({
-	indexView:"index"
+	indexView:"guide"
 })
-
-
-console.log("ok")
-console.log("new")
-
-
-console.log("hhjjjj");
-console.log("hello");
-console.log("hello");
-console.log("hello");
-
 
 

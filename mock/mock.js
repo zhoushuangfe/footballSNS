@@ -15,6 +15,10 @@ module.exports={
 		{
 			pattern:/\/api\/getLivelist.php\?rtype=\d+$/,
 			respondwith:"./liveDetail.json"
+		},
+		{
+			pattern:/\/api\/getLivelist.php\?keyId=\d+$/,
+			respondwith:"./backDetail.json"
 		}
 		
 	]

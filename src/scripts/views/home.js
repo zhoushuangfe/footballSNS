@@ -13,7 +13,10 @@ SPA.defineView("home",{
 	init:{
 		mySwiper:null,
 		hotSwiper:null,
-		vm:null
+		vm:null,
+		flag:0,
+		detailId:"",
+		keyId:""
 	},
 	bindEvents:{
 		//视图显示出来之前的回调函数
@@ -136,7 +139,36 @@ SPA.defineView("home",{
 				}
 			})
 
+		},
+		actived:function(){
+			var that=this;
+			if(this.flag==1){
+				//ajax请求渲染页面
+				$.ajax({
+					//url:"mock/backDetail.json",
+					url:"/api/getLivelist.php",
+					type:"get",
+					data:{
+						keyId:this.detailId
+					},
+					success:function(e){
+						that.vm.livedata=e.data;
+						
+					},
+					error:function(){
+						alert("请求失败")
+					}
+
+				})
+			}
+			this.flag=1;	
+		},
+		receiveData:function(obj){
+			console.log(obj.data.param);
+			this.detailId=obj.data.param;
+
 		}
+
 	},
 	bindActions:{  
 		"tap.slide":function(e){
